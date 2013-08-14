@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS `yiimusicstore` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `yiimusicstore`;
+
 CREATE TABLE tbl_user (
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(128) NOT NULL,
